@@ -1,0 +1,31 @@
+[[P4est]]
+arch = "aarch64"
+git-tree-sha1 = "1c2d3aadfb8c43cb3424e5aab538e6d3ccf38ba8"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[P4est.download]]
+    sha256 = "f7aae54353c8af586d4cac1467aef7efff96113406eab5b00876dbdeb7414dc6"
+    url = "https://github.com/boriskaus/P4est_jll.jl/releases/download/P4est-v2.8.10+0/P4est.v2.8.10.aarch64-apple-darwin-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "x86_64"
+git-tree-sha1 = "ad625e3203375df881b332058d330538282a3f87"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "8c9646fee250ecc7f92a91e1d366832fbc4a06b5fbf44ae7aa22f0d399c284ea"
+    url = "https://github.com/boriskaus/P4est_jll.jl/releases/download/P4est-v2.8.10+0/P4est.v2.8.10.x86_64-linux-gnu-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "x86_64"
+git-tree-sha1 = "1dbd5fa4c20c1a9ba9842e1d80842a922d4c9c3e"
+lazy = true
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[P4est.download]]
+    sha256 = "4ed99e9e9c3b1ef577574f5bd55c72308bef6f32bb4d15a978ca962b37ab4523"
+    url = "https://github.com/boriskaus/P4est_jll.jl/releases/download/P4est-v2.8.10+0/P4est.v2.8.10.x86_64-w64-mingw32-mpi+microsoftmpi.tar.gz"
